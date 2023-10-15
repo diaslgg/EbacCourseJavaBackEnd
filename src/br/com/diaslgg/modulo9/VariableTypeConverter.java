@@ -23,21 +23,19 @@ public class VariableTypeConverter {
             System.out.println("Primitive byte class casted as Byte (wrapper class) data type: " + CastedInputByte);
 
             short InputShort = (short) InputNumber;
-            System.out.println("Picked number as a byte data type: " + InputShort);
+            System.out.println("Picked number as a short data type: " + InputShort);
             Short CastedInputShort = InputShort;
             System.out.println("Primitive short class casted as Short (wrapper class) data type: " + CastedInputShort);
 
             int InputInt = (int) InputNumber;
             System.out.println("Picked number as a int data type: " + InputInt);
             Integer CastedInputInt = InputInt;
-            System.out.println("Primitive int class casted as Int (wrapper class) data type: " + CastedInputInt);
+            System.out.println("Primitive int class casted as Integer (wrapper class) data type: " + CastedInputInt);
 
             long InputLong = (long) InputNumber;
             System.out.println("Picked number as a long data type: " + InputInt);
             Long CastedInputLong = (long) InputLong;
-            System.out.println("Primitive int class casted as Int (wrapper class) data type: " + CastedInputLong);
-
-
+            System.out.println("Primitive long class casted as Long (wrapper class) data type: " + CastedInputLong);
 
         } catch (NumberFormatException e ) {
             System.out.println("You need to pick a valid number.");
