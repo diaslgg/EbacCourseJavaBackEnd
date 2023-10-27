@@ -7,6 +7,7 @@ import java.util.*;
  */
 public class PeopleNameGender {
     public static void main(String[] args) {
+
         printNames();
     }
 
@@ -35,7 +36,7 @@ public class PeopleNameGender {
 
     /**
      * Separates the picked names by gender
-     * @return Reponse List with all names sorted alphabetically and separated by gender.
+     * @return Response List with all names sorted alphabetically and separated by gender.
      */
     public static List <String> separateNamesGender(){
         List<String> maleNames = new ArrayList<>();
